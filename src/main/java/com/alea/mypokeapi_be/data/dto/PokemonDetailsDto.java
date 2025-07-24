@@ -1,5 +1,6 @@
-package com.alea.mypokeapi_be.dto;
+package com.alea.mypokeapi_be.data.dto;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -14,10 +15,15 @@ import java.io.Serializable;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class PokemonResultDto implements Serializable {
+public class PokemonDetailsDto implements Serializable {
 
     private static final long serialVersionUID = 1L;
 
+    private Long id;
     private String name;
-    private String url;
+    private Integer weight;
+    private Integer height;
+
+    @JsonProperty("base_experience")
+    private Integer baseExperience;
 }

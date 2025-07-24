@@ -1,9 +1,9 @@
 package com.alea.mypokeapi_be.client;
 
 import com.alea.mypokeapi_be.data.entity.PokemonEntity;
-import com.alea.mypokeapi_be.dto.PokemonDetailsDto;
-import com.alea.mypokeapi_be.dto.PokemonResponseDto;
-import com.alea.mypokeapi_be.dto.PokemonResultDto;
+import com.alea.mypokeapi_be.data.dto.PokemonDetailsDto;
+import com.alea.mypokeapi_be.data.dto.PokemonResponseDto;
+import com.alea.mypokeapi_be.data.dto.PokemonResultDto;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;

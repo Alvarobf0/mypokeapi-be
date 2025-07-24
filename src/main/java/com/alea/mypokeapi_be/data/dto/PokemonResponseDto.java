@@ -1,4 +1,4 @@
-package com.alea.mypokeapi_be.dto;
+package com.alea.mypokeapi_be.data.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
