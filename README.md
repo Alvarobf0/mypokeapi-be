@@ -31,6 +31,7 @@ Includes Unit and Integration tests of the different layers and Swagger for API 
 
 The application will start on port `8080` by default and Swagger is found in http://localhost:8080/swagger-ui/index.html.
 
+--------------------------
 
 ## Architectural & Technical Decisions
 
@@ -58,6 +59,8 @@ as properties of the application in addition with the PokeAPI Url.
 Finally, the data is populated in `MyPokeRepository.java` that through JPA query methods, filters and returns the desired data.
 
 I created basic tests for the Client, Controller, Repository and Service. In case of the Repository, I created an integration test with the whole test application running.
+
+--------------------------
 
 ## Future Improvements
 
